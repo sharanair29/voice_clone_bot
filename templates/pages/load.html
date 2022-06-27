@@ -1,0 +1,19 @@
+{% extends "pages/basef2.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/upload.css') }}">
+<a class="btn btn-secondary btn-block mt-4" href = "{{url_for('intents')}}">Back to Intent Builder</a>
+  
+       
+
+<form action="upload.php" method="POST">
+    <input type="file" multiple>
+    <p>Upload your contacts in a csv file here. Drag and drop!</p>
+    <button type="submit">Upload</button>
+  </form>
+
+  <a class="btn btn-secondary btn-block mt-4" href = "{{url_for('send_bulk')}}">Navigate to Send Bots in Bulk Page</a>
+  {% endblock %}
+ 
+

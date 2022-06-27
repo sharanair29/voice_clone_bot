@@ -1,0 +1,27 @@
+{% extends "pages/basef.html" %}
+
+{% block content %}
+
+
+  <a class="btn btn-secondary btn-block mt-4" href = "{{url_for('send_bulk')}}">Back to Send Bulk Page</a>
+    
+  <h1>## Message +1(415) 523-8886 with the key "join log-park" </h1>
+  <h1>Monitor Whatsapp Conversations </h1>
+
+
+    <!-- <h1>{{message}}</h1>
+    <h1>{{bot}}</h1> -->
+    <ul>
+      {% for item in ls %}
+      <li>{{item}}</li>
+      {% endfor%}
+    </ul>
+    <a class="btn btn-secondary btn-block mt-4" href = "{{url_for('web')}}">Go to Your WhatsWeb Official</a>
+    <a class="btn btn-secondary btn-block mt-4" href = "{{url_for('convos')}}">Go to Bots Chat Profile</a>
+    <a class="btn btn-secondary btn-block mt-4" href = "">Send to Database for NLU/NLG training</a>
+    <a class="btn btn-secondary btn-block mt-4" href = "">Conversation Sentiment and Rating</a>
+    {% endblock %}
+  
+    {% block footer%}
+  
+    {% endblock %}

@@ -1,0 +1,23 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Welcome to the site {{name}}!</h1>
+        <h1>{{letters[2:]}}</h1>
+        <h2>Here is a pic of a puppy!</h2>
+        <h1>{{pup_dictionary['pup_name']}}</h1>
+        <img src="../static/puppy_pic.jpg" alt="">
+
+        {% if user_logged_in %}
+            <p>Welcome back, you are now logged in</p>
+        {% else %}
+            <p>Please log in!</p>
+        {% endif %}
+        
+    </body>
+    </html>

@@ -1,0 +1,104 @@
+
+{% extends "pages/basef.html" %}
+
+{% block content %}
+
+  <!-- Breadcrumb -->
+  <section id="bc" class="mt-3">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{{url_for('home')}}">
+              <i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="breadcrumb-item active"> About</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- <section id="about" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>We Search For The Perfect Consumer Experience</h2>
+          <p class="lead">mens et machina</p>
+          <img src="static/assets/img/brain.gif" alt="">
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
+            neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
+            commodi id libero eveniet harum perferendis laborum molestias quia.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="static/assets/img/realtors/kyle.jpg" alt="Seller of the month">
+            <div class="card-body">
+              <h5 class="card-title">Seller Of The Month</h5>
+              <h6 class="text-secondary">Kyle Brown</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt amet, illo itaque similique repellat.
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Work -->
+  <section id="work" class="bg-dark text-white text-center">
+    <h2 class="display-4">We Work For You</h2>
+    <h4>mens et machina</h4>
+    <hr>
+    <a href="{{url_for('botapp')}}" class="btn btn-secondary text-white btn-lg">View Our Featured Bot</a>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Our Team</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="static/assets/img/realtors/teamprof.jpeg" alt="" class="rounded-circle mb-3">
+          <h4>Someone</h4>
+          <p class="text-success">
+            <!-- <i class="fas fa-award text-success mb-3"></i> -->
+              Role</p> 
+          <hr>
+          <p>
+            <i class="fas fa-phone"></i> (60)-xxx-xxxxxxx)</p>
+          <p>
+            <i class="fas fa-envelope-open"></i> someone@hoop.technology</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="static/assets/img/realtors/teamprof.jpeg" alt="" class="rounded-circle mb-3">
+          <h4> Someone</h4>
+          <p class="text-success">Role</p>
+          <hr>
+          <p>
+            <i class="fas fa-phone"></i> (60)-xxx-xxxxxxx)</p>
+          <p>
+            <i class="fas fa-envelope-open"></i> someone@hoop.technology</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="static/assets/img/realtors/teamprof.jpeg" alt="" class="rounded-circle mb-3">
+          <h4>Someone</h4>
+          <p class="text-success">Role</p>
+          <hr>
+          <p>
+            <i class="fas fa-phone"></i> (60)-xxx-xxxxxxx)</p>
+          <p>
+            <i class="fas fa-envelope-open"></i> someone@hoop.technology</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  {% endblock %}
+  
+  {% block footer%}
+
+  {% endblock %}
