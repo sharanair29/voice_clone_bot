@@ -2,50 +2,5 @@
         {"tag": "greetings",
         "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
         "responses": ["Hello!", "Hey!", "What can I do for you?"]
-        },
-
-        {"tag": "goodbye",
-        "patterns": ["see ya", "See you later", "I am leaving", "goodbye", "cya", "have a good day!", "bye"],
-        "responses": ["byee", "Have a lovely day!", "goodbye", "see you soon"]
-        
-        },
-        {"tag": "greet-reject",
-        "patterns": ["why are you calling?", "Wait", "Hold on for a minute", "I am busy"],
-        "responses": ["I am calling to introduce a new product. Would you like to hear more?", "Would you prefer another time?"]
-        
-        },
-        {"tag": "prodinquiry",
-        "patterns": ["What is this for?", "What do you recommend?", "What are you selling?", "can you tell me more?"],
-        "responses": ["I am Shara from Hoop Fintech. We specialize in fintech.", "I am calling to introduce a new product from hoop fintech"]
-        
-        },
-
-        {"tag":"intro",
-        "patterns": ["What is your name?", "who are you?", "can you tell me your name?"],
-        "responses":["My name is Shara", "I am Shara from Hoop Fintech"]
-        
-        },
-
-        {"tag":"clientinfoq",
-        "patterns": ["How did you get my number?", "I am listening"],
-        "responses": ["A friend of yours passed it on to me", "Can you please verify your contact number and email address?"]
-        
-        },
-
-        {"tag":"hostile",
-        "patterns": ["No","I am not interested", "Not answering"],
-        "responses": ["Sorry to bother you", "Would you like me to talk to you some other time?", "I apologize"]
-        
-        },
-
-        {"tag":"curious-interested",
-        "patterns": ["I would like to hear more", "Yes", "That sounds good"],
-        "responses": ["Great", "Could you please leave your contact details with me?", "Do you have any questions?"]
-        
-        },
-
-        {"tag":"curious-nointerest",
-        "patterns": ["I have not heard of this", "What is this about?", "I see"],
-        "responses": ["How can I help you get a better idea?"]
         }
 ]}
