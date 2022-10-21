@@ -17,7 +17,7 @@ def intro():
     message = client.messages.create(
             body = "Hey start talking to the bot!",
             from_='whatsapp:+14155238886',
-            to='whatsapp:+60177144551'
+            to='whatsapp:+xxxx'
         )
 
 intro()
