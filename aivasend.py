@@ -15,9 +15,9 @@ auth_token = TWILIO_AUTH_TOKEN
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-                              from_='whatsapp:+14155238886',
-                              body='Hello there please talk to the bot by replying "join log-park"!',
-                              to='whatsapp:+60177144551'
+                              from_='whatsapp:+xxxxx',
+                              body='',
+                              to='whatsapp:+xxxxx'
                           )
 
 
